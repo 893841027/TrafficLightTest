@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="40dp">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <TextView
+                android:id="@+id/road"
+                android:layout_weight="1"
+                android:layout_width="1dp"
+                android:textColor="#333"
+                android:text="路口"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:textStyle="normal"
+                android:singleLine="true"
+                android:padding="4dp"
+                android:background="@drawable/stroke"
+                android:layout_height="match_parent" />
+
+        <TextView
+                android:id="@+id/red"
+                android:layout_weight="1"
+                android:layout_width="1dp"
+                android:textColor="#333"
+                android:text="红灯时长"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:textStyle="normal"
+                android:singleLine="true"
+                android:padding="4dp"
+                android:background="@drawable/stroke"
+                android:layout_height="match_parent" />
+
+        <TextView
+                android:id="@+id/yellow"
+                android:layout_weight="1"
+                android:layout_width="1dp"
+                android:textColor="#333"
+                android:text="黄灯时长"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:textStyle="normal"
+                android:singleLine="true"
+                android:padding="4dp"
+                android:background="@drawable/stroke"
+                android:layout_height="match_parent" />
+
+        <TextView
+                android:id="@+id/green"
+                android:layout_weight="1"
+                android:layout_width="1dp"
+                android:textColor="#333"
+                android:text="绿灯时长"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:textStyle="normal"
+                android:singleLine="true"
+                android:padding="4dp"
+                android:background="@drawable/stroke"
+                android:layout_height="match_parent" />
+
+        <RelativeLayout
+                android:background="@drawable/stroke"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_width="1dp"
+                android:layout_height="match_parent">
+
+
+            <CheckBox
+                    android:id="@+id/check"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:background="@drawable/stroke"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_width="1dp"
+                android:layout_height="match_parent">
+
+        <Button
+                android:id="@+id/set"
+                android:text="设置"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
